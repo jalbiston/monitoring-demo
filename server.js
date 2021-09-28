@@ -5,7 +5,7 @@ const app = express()
 const Rollbar =require('rollbar')
 
 const rollbar = new Rollbar({
-    accessToken: '92615ddd4baa421b83ea91109d7a18ec',
+    accessToken: '4afb3139e0734677b9840cf18ada4935',
     captureUncaught: true,
     captureUnhandledRejections: true
 })
